@@ -18,7 +18,7 @@ int main() {
     cout << "Ingrese el nombre del producto (FIN para terminar): ";
     getline(cin, producto);
 
-    while (producto != "FIN") {
+    while (producto != "FIN" && producto != "Fin" && producto != "fin") {
 
         cout << "Ingrese la cantidad: ";
         cin >> cantidad;
